@@ -1,0 +1,8 @@
+#ifndef FORK_H
+#define FORK_H
+
+#include <unistd.h>
+
+#define vfork fork
+
+#endif

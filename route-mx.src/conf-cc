@@ -1,0 +1,1 @@
+cc -O2 -pipe -DLDAP_DEPRECATED -fno-strict-aliasing

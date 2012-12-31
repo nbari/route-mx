@@ -1,0 +1,8 @@
+#!/bin/sh
+umask 0027
+echo '---------------------------------------------' >> /home/qmail/dirmaker.log
+date >> /home/qmail/dirmaker.log
+echo $1 >> /home/qmail/dirmaker.log
+id >> /home/qmail/dirmaker.log
+mkdir -p $1
+/var/qmail/bin/maildirmake $1/Maildir
